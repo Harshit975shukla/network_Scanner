@@ -18,10 +18,6 @@ def scan(ip):
     return client_list
 
 def print_result(result_list):
-    """
-
-    :type result_list: object
-    """
     print("IP\t\t\tMAC ADDRESS\n")
     for clients in result_list:
         print(clients["ip"]+"\t\t"+clients["mac"])
